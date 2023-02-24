@@ -25,4 +25,6 @@ for (let i = 1; i <= 100 ; i++ ){
     }else {
         squareText.innerHTML = i;
     }
+
+    console.log(squareText.innerHTML)
 }
