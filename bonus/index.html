@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>FizzBuzzDOM</title>
+</head>
+    
+<body>
+    <header>
+        <h1>FizzBuzzDOM</h1>
+    </header>
+
+    <main>
+        <div class="form-container">
+            <form>
+                <label for="userSquares">Scegli il numero di quadratini da generare.</label>
+                <input type="number" id="userSquares">
+                <br>
+
+                <label for="userFirstNumber">Scegli il primo numbero di cui vuoi controllare i fizz-multipli.</label>
+                <input type="number" id="userFirstNumber">
+                <br>
+
+                <label for="userSecondNumber">Scegli il secondo numbero di cui vuoi controllare i buzz-multipli.</label>
+                <input type="number" id="userSecondNumber">
+                <br>
+            </form>
+            <button type="button" id="submit">Genera Quadratini</button>
+            <button type="button" id="reset">Resetta Quadratini</button>
+        </div>
+        <div class="squares-container d-none">
+
+        </div>
+    </main>
+    
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
